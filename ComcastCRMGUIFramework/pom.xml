@@ -50,11 +50,6 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<version>9.4.0</version>
 		</dependency>
-		<dependency>
-			<groupId>Advanced_Selenium_VtigerCRM</groupId>
-			<artifactId>Advanced_Selenium_VtigerCRM</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
