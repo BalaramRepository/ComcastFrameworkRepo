@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DocumentsPage {
 
 	public DocumentsPage(WebDriver driver) {
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(xpath = "//img[@title='Create Document...']")
@@ -16,7 +16,6 @@ public class DocumentsPage {
 	
 	@FindBy(name = "search_text")
 	private WebElement searchEdt;
-
 	
 	public WebElement getCreateDocBtn() {
 		return createDocBtn;
