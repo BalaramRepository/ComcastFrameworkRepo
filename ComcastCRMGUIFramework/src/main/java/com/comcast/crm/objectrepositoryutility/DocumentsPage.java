@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class DocumentsPage {
 
 	public DocumentsPage(WebDriver driver) {
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver, this);
 	}
 	
 	@FindBy(xpath = "//img[@title='Create Document...']")
