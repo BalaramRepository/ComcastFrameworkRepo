@@ -6,6 +6,7 @@
 			class-name="com.comcast.crm.generic.listeners.ListenersImpl"></listener>
 	</listeners>
 	<test thread-count="5" name="Test">
+	
 		<classes>
 			<class name="com.comcast.crm.contacttest.CreateContactTest">
 				<methods>
